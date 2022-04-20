@@ -1,0 +1,25 @@
+.navbar{
+	min-height: 40px;
+	padding-top: 10px;
+	background: #F8F8F8;
+	margin-bottom: 32px;
+}
+.navbar__menu{
+
+}
+.navbar__list{
+	display: flex;
+}
+.navbar__item{
+	white-space:nowrap;
+	cursor: pointer;
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #5C596D;
+}
+.navbar__item:not(:last-child){
+margin-right: 32px;
+}

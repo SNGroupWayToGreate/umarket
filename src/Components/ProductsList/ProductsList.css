@@ -1,0 +1,22 @@
+.products{
+margin-bottom: 30px;
+transition: all 0.3s ease;
+margin-bottom: 96px;
+}
+.products__title{
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #5C596D;
+	margin-bottom: 24px;
+
+}
+.products__body{
+
+}
+.products__items{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+	gap: 50px 30px;
+}

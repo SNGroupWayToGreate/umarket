@@ -1,0 +1,35 @@
+.header{
+	width: 100%;
+	min-height: 72px;
+	padding: 22px 0;
+}
+.header__body{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__body>*:not(:last-child){
+margin-right: 56px;
+}
+.header__logo{
+	display: flex;
+	align-items: center;
+}
+.header__input{
+	display: flex;
+}
+.input__search{
+	width: 52px;
+	background: yellow;
+}
+.input__picture{
+	width: 52px;
+	background: red;
+}
+.header__input input{
+	padding: 5px;
+	width: 573px;
+min-height: 48px;
+background: #F7F7F7;
+border-radius: 4px;
+}
