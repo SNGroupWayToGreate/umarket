@@ -1,0 +1,46 @@
+
+.popular{
+margin-bottom: 75px;
+}
+.popular__container{
+
+}
+.popular__title{
+	font-family: 'Poppins';
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #5C596D;
+margin-bottom: 24px;
+
+}
+.popular__categories{
+	margin-bottom: 36px;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(156px,1fr));
+row-gap: 6.86px;
+column-gap: 2px;
+}
+.popular__category{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #F7F7F7;
+border-radius: 4px;
+min-height: 36px;
+	
+}
+
+.popular__brands{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(206px,1fr));
+	row-gap: 6.86px;
+	column-gap: 6.86px;
+}
+.popular__brand{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 75px;
+	border: 1px solid #EAE9EF;
+}

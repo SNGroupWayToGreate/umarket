@@ -1,11 +1,15 @@
 import React from 'react'
 import './ProductCard.css'
+import banner from '../../images/banner.jpg'
 
 export default function ProductCard() {
 	return (
 		<div className="product">
-			<div className="product__image">
-				<img src='' alt="productImage" />
+			<div className="product__image">				
+				<img src={banner} alt="productImage" />
+				<div className="product__watch">
+					Быстрый просмотр
+				</div>
 			</div>
 			<div className="product__name">
 				<a href='#'>

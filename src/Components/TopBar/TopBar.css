@@ -46,6 +46,7 @@ display: flex;
 
 }
 .phone__number{
+	white-space:nowrap;
 	font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;

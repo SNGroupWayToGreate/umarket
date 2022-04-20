@@ -1,8 +1,11 @@
 import './App.css'
 import Banner from './Components/Banner/Banner';
 import CategoryCard from './Components/CategoryCard/CategoryCard';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
+import MobileOrder from './Components/MobileOrder/MobileOrder';
 import Navbar from './Components/Navbar/Navbar';
+import PopularBrands from './Components/PopularBrands/PopularBrands';
 import ProductCard from './Components/ProductCard/ProductCard';
 import ProductsList from './Components/ProductsList/ProductsList';
 import TopBar from './Components/TopBar/TopBar';
@@ -40,6 +43,9 @@ const App = () => {
 				<ProductCard />
 				<ProductCard />
 			</ProductsList>
+			<PopularBrands />
+			<MobileOrder />
+			<Footer />
 		</div>
 	);
 }
