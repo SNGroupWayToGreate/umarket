@@ -1,14 +1,14 @@
 import './CategoryCard.css'
 
-export default function CategoryCard() {
+export default function CategoryCard({ title, image }) {
 	return (
 		<div className="category">
 			<div className="category__image">
-				<img src='' alt="categoryImage" />
+				<img src={image} alt="categoryImage" />
 			</div>
 			<div className="category__title">
 				<a href='#'>
-					Смартфоны
+					{title}
 				</a>
 			</div>
 		</div>

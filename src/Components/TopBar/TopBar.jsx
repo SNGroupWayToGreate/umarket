@@ -1,5 +1,7 @@
 import React from 'react'
 import './TopBar.css'
+import locationOn from '../../images/topBarIcons/location_on.svg'
+import phone from '../../images/topBarIcons/tel.svg'
 
 export default function TopBar() {
 	return (
@@ -21,7 +23,7 @@ export default function TopBar() {
 				<div className="topBar__column">
 					<div className="topBar__phone phone">
 						<div className="phone__icon">
-							<img src="" alt="" />
+							<img src={phone} alt="" />
 						</div>
 						<div className="phone__number">
 							+998 97 778-17-08
@@ -29,7 +31,7 @@ export default function TopBar() {
 					</div>
 					<div className="topBar__location location">
 						<div className="location__icon">
-							<img src="" alt="" />
+							<img src={locationOn} alt="" />
 						</div>
 						<div className="location__city">
 							Ташкент

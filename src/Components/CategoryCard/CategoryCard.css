@@ -1,6 +1,7 @@
 .category{
 	display: grid;
 	grid-template-rows: auto 1fr;
+	justify-items: center;
 left: 0px;
 top: 0px;
 background: #F7F7F7;
@@ -9,7 +10,6 @@ padding: 16px;
 }
 .category__image{
 	position: relative;
-	padding-bottom: 160px;
 	background: white;
 	margin-bottom: 12px;
 	background: #F7F7F7;

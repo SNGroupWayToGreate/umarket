@@ -7,28 +7,36 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 .header__body>*:not(:last-child){
 margin-right: 56px;
 }
 .header__logo{
+	grid-column: 2/3;
 	display: flex;
 	align-items: center;
 }
 .header__input{
-	display: flex;
+	display: grid;
+	grid-template-columns: 50px minmax(auto,577px) 50px;
 }
 .input__search{
 	width: 52px;
-	background: yellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+background: #F7F7F7;
 }
 .input__picture{
 	width: 52px;
-	background: red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+background: #F7F7F7;
 }
 .header__input input{
 	padding: 5px;
-	width: 573px;
 min-height: 48px;
 background: #F7F7F7;
 border-radius: 4px;

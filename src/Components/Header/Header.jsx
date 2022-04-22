@@ -5,6 +5,8 @@ import cart from '../../images/default.svg'
 import man from '../../images/Man.svg'
 import chart from '../../images/chart.svg'
 import logo from '../../images/logo.png'
+import photo from '../../images/HeaderIcons/photo.svg'
+import search from '../../images/HeaderIcons/search.svg'
 import './Header.css'
 
 
@@ -17,10 +19,13 @@ export default function Header() {
 						<img src={logo} alt="" />
 					</div>
 					<div className="header__input input">
-						<div className="input__search"></div>
-
+						<div className="input__search">
+							<img src={search} alt="" />
+						</div>
 						<input placeholder='Поиск по товарам' type='text' />
-						<div className="input__picture"></div>
+						<div className="input__picture">
+							<img src={photo} alt="" />
+						</div>
 					</div>
 					<ButtonGroup>
 						<NavButton icon={heart} text='Избранное' count={10} />

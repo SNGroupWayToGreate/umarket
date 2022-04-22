@@ -1,12 +1,15 @@
 import React from 'react'
 import './ProductCard.css'
 import banner from '../../images/banner.jpg'
+import cart from '../../images/ProductCardIcons/cart.svg'
+import heart from '../../images/ProductCardIcons/heart.svg'
+import compare from '../../images/ProductCardIcons/Group.svg'
 
-export default function ProductCard() {
+export default function ProductCard({ image }) {
 	return (
 		<div className="product">
-			<div className="product__image">				
-				<img src={banner} alt="productImage" />
+			<div className="product__image">
+				<img src={image} alt="productImage" />
 				<div className="product__watch">
 					Быстрый просмотр
 				</div>
@@ -28,8 +31,13 @@ export default function ProductCard() {
 			</div>
 			<div className="product__buttons">
 				<button className='product__add add' type='button'>
+					<img src={cart} alt="" />
 					<div className="add__text">В корзину</div>
 				</button>
+				<div className="product__icons">
+					<img src={compare} alt="" />
+					<img src={heart} alt="" />
+				</div>
 			</div>
 		</div>
 	)

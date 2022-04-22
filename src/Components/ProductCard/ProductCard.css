@@ -82,10 +82,21 @@ margin-bottom: 16px;
 	margin-bottom: 20px;
 }
 .product__buttons{
-	
-
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.product__icons{
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.product__icons>*:not(:last-child){
+margin-right: 23px;
 }
 .product__add{
+	display: flex;
+	align-items: center;
 	min-height: 40px;
 	padding:0 16px;
 	background: #4D96FF;
@@ -95,7 +106,14 @@ font-size: 16px;
 line-height: 24px;
 text-align: center;
 color: #FFFFFF;
-transition: all 0.3s ease;
+transition: all 0.05s ease;
+}
+.product__add img{
+	margin-right: 12.5px;
+	transition: all 0.3s linear;
+}
+.product__add:hover.product__add img{
+	transform: rotate(45deg);
 }
 .product__disabled{
 	cursor: inherit;

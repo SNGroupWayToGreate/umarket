@@ -10,8 +10,14 @@
 	margin-bottom: 96px;
 }
 .footer__column{
-	margin-right: 96px;
+	margin-right: 90px;
 	margin-bottom: 64px;
+}
+.column__apps>img:not(:last-child){
+	margin-right: 16px;
+}
+.column__socials>img:not(:last-child){
+	margin-right: 27px;
 }
 .column__label{
 	white-space: nowrap;
@@ -25,6 +31,22 @@ margin-bottom: 16px;
 .column__list{
 	display: grid;
 	row-gap: 12px;
+}
+.column__number a{
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #5C596D;
+}
+.column__email a{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #5C596D;
 }
 .column__item{
 	white-space: nowrap;
